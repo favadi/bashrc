@@ -21,5 +21,8 @@ source_if_exist ~/.bash/bash_apr.sh
 # Aliases
 source_if_exist ~/.bash/bash_alias.sh
 
+# Misc
+source_if_exist ~/.bash/bash_misc.sh
+
 # Custom file
 source_if_exist ~/.bash/bash_custom.sh
