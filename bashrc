@@ -3,6 +3,9 @@
 # Author: Diep Pham Van <imeo@favadi.com>
 #
 
+# Setting PATH environment variable
+[[ -r "${HOME}/.bash/bash_path.sh" ]] && source "${HOME}/.bash/bash_path.sh"
+
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 

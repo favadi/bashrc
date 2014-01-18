@@ -1,5 +1,5 @@
 #!/bin/bash
-# 
+#
 # Miscellaneous functions and settings
 
 # Auto start tmux for server

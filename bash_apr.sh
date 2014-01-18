@@ -11,3 +11,7 @@ else
     # On server, host name is red
     PS1='\e[0;32m\u\e[m \e[0;37mat\e[m \e[0;31m\h\e[m \e[0;33m\w\e[m\n\$ '
 fi
+
+if [[ "$TERM" = 'dumb' ]]; then
+    PS1='$ '
+fi

@@ -6,13 +6,14 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 
 # Safety features
-alias rm='rm -iv'
-alias cp='cp -iv'
-alias mv='mv -iv'
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
+alias crontab='crontab -i'
 
 # less will pickup LESS environment variable
 export LESS=' -i -g -n -R'
 
 # EDITOR setting
-export EDITOR=/usr/bin/vim
-export VISUAL=/usr/bin/vim
+export EDITOR=vim
+export VISUAL=vim
