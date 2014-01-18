@@ -4,7 +4,7 @@
 
 # Source if the file is exist and readable
 source_if_exist() {
-    [[ -r $1 ]] && source $1
+    [[ -r $1 ]] && source "$1"
 }
 
 
